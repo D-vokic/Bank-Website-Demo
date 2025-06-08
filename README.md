@@ -88,6 +88,7 @@ Toggle between light and dark modes, with preference saved in `localStorage`.
 
 ## Project Structure
 
+```
 Bank Website Demo/
 ├── css/
 ├── img/
@@ -98,6 +99,8 @@ Bank Website Demo/
 ├── LICENSE.md
 ├── screenshot.png
 └── README.md
+```
+
 ---
 
 ### Getting Started
