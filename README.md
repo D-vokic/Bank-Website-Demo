@@ -1,4 +1,4 @@
-# Interactive README,md
+# Interactive Bank Website Demo
 
 This project is a modern, responsive **demo of a banking website**, featuring:
 
@@ -17,13 +17,13 @@ This project is a modern, responsive **demo of a banking website**, featuring:
 
 ## Demo
 
-You can view a live demo of this project [here](#).
+You can view a live demo of this project [here](https://d-vokic.github.io/Bank-Website-Demo/).
 
 ---
 
 ## Table of Contents
 
-- [Interactive Banking UI](#interactive-banking-ui)
+- [ Interactive Bank Website Demo](#interactive-bank-website-demo)
 
   - [Demo](#demo)
   - [Table of Contents](#table-of-contents)
@@ -88,33 +88,10 @@ Toggle between light and dark modes, with preference saved in `localStorage`.
 
 ## Project Structure
 
+```
 Bank Website Demo/
 ├── css/
-├── components/
-└── darkMode.css
-└── hamburger.css
-└── modal.css
-└── scrollToTop.css.css
-└── slider.css.css
-├── responsive/
-└── responsive-480.css
-└── responsive-500.css
-└── responsive-576.css
-└── responsive-768.css
-└── responsive-900.css
-└── responsive-1024.css
-└── responsive-1150.css
-└── responsive-1300.css
-├── sections/
-└── features.css
-└── footer.css
-└── header.css
-└── nav.css
-└── operations.css
-└── signup.css
-└── testimonials.css
-└── base.css
-├── img/ # Images and icons
+├── img/
 ├── script.js
 ├── .gitignore
 ├── .prettierrc
@@ -122,6 +99,7 @@ Bank Website Demo/
 ├── LICENSE.md
 ├── screenshot.png
 └── README.md
+```
 
 ---
 
