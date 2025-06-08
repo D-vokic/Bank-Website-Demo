@@ -17,7 +17,7 @@ This project is a modern, responsive **demo of a banking website**, featuring:
 
 ## Demo
 
-You can view a live demo of this project [here](https://d-vokic.github.io/Bank-Website-Demo/).
+Ready to test-drive the project? The demo is just [one click](https://d-vokic.github.io/Bank-Website-Demo/) away!
 
 ---
 
