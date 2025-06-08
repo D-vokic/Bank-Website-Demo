@@ -1,4 +1,4 @@
-# Interactive README,md
+# Interactive Bank Website Demo
 
 This project is a modern, responsive **demo of a banking website**, featuring:
 
