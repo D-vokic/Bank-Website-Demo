@@ -89,32 +89,8 @@ Toggle between light and dark modes, with preference saved in `localStorage`.
 ## Project Structure
 
 Bank Website Demo/
-├── css/
-├── components/
-└── darkMode.css
-└── hamburger.css
-└── modal.css
-└── scrollToTop.css.css
-└── slider.css.css
-├── responsive/
-└── responsive-480.css
-└── responsive-500.css
-└── responsive-576.css
-└── responsive-768.css
-└── responsive-900.css
-└── responsive-1024.css
-└── responsive-1150.css
-└── responsive-1300.css
-├── sections/
-└── features.css
-└── footer.css
-└── header.css
-└── nav.css
-└── operations.css
-└── signup.css
-└── testimonials.css
-└── base.css
-├── img/ # Images and icons
+├── css/ 
+├── img/
 ├── script.js
 ├── .gitignore
 ├── .prettierrc
