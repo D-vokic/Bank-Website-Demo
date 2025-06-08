@@ -341,7 +341,7 @@ const slider = function () {
       modeToggleBtn.innerHTML = '<i class="fa-solid fa-umbrella-beach"></i>';
       modeToggleBtn.style.color = 'var(--text-color)';
       modeToggleBtn.style.backgroundColor = '#ffffff';
-      logoImg.src = 'img/icon.png'; // Light mode logo
+      logoImg.src = 'img/physics.png'; // Light mode logo
       localStorage.setItem('darkMode', 'disabled');
     }
 
