@@ -126,7 +126,7 @@
   }
 
   .operations__content {
-    padding: 2rem 3rem;
+    display: block !important;
   }
 
   /* === Testimonials Section (Section 3) === */
