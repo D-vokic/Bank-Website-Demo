@@ -23,7 +23,7 @@ You can view a live demo of this project [here](https://d-vokic.github.io/Bank-W
 
 ## Table of Contents
 
-- [Interactive Banking UI](#interactive-banking-ui)
+- [ Interactive Bank Website Demo](#interactive-bank-website-demo)
 
   - [Demo](#demo)
   - [Table of Contents](#table-of-contents)
