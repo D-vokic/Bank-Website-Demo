@@ -1,0 +1,47 @@
+/* Dark mode */
+body.dark-mode {
+  color: #e0e0e0;
+  background-color: var(--btn-bg);
+
+  --sign-up-bg: #1a1a1a; /* još tamnije */
+  --sign-up-border: #666; /* malo svetlija granica */
+  --sign-up-text: #e0e0e0; /* svetliji tekst */
+
+  --footer-bg: #111;
+  --footer-link: #ccc;
+  --footer-link-hover: #fff;
+  --footer-text: #888;
+
+  --modal-bg: #1e1e1e;
+  --modal-text: #f3f3f3;
+  --input-bg: #2a2a2a;
+  --input-border: #444;
+}
+
+.modal.dark-mode {
+  --modal-bg: #1e1e1e;
+  --modal-text: #f3f3f3;
+  --input-bg: #2a2a2a;
+  --input-border: #444;
+}
+
+/* Button toggle */
+#modeToggleBtn {
+  position: fixed;
+  top: 2.5rem;
+  right: 50%;
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#modeToggleBtn:hover {
+  background-color: var(--btn-color);
+  color: var(--btn-bg);
+}

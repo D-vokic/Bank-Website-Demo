@@ -1,0 +1,78 @@
+/* ===== Navigation Container ===== */
+.nav {
+  display: flex;
+  justify-content: space-between; /* space between logo and nav links */
+  align-items: center;
+  height: 9rem;
+  width: 100%;
+  padding: 0 6rem;
+  z-index: 100; /* make sure nav is on top */
+}
+
+/* ===== Sticky Navigation (fixed at top on scroll) ===== */
+.nav.sticky {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.95); /* slight transparency */
+}
+
+/* ===== Logo Section ===== */
+.nav_img span {
+  font-size: 2.5rem;
+  color: var(--color-primary-darker);
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+/* Logo image styles */
+.nav__logo {
+  height: 4rem;
+  transition: all 0.3s;
+  border-radius: 50%; /* circular logo */
+}
+
+/* ===== Hamburger toggle button (hidden by default) ===== */
+.nav__toggle {
+  display: none;
+}
+
+/* ===== Navigation Links Container ===== */
+.nav__links {
+  display: flex;
+  align-items: center;
+  list-style: none; /* remove bullets */
+
+  gap: 2rem; /* spacing between links */
+  margin-left: auto; /* push links to the right */
+}
+
+/* Individual navigation item spacing */
+.nav__item {
+  margin-left: 4rem;
+}
+
+/* ===== Navigation Link Styles ===== */
+.nav__link:link,
+.nav__link:visited {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: inherit; /* inherit from parent */
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s; /* smooth hover transition */
+}
+
+/* ===== Button styled navigation link ===== */
+.nav__link--btn:link,
+.nav__link--btn:visited {
+  padding: 0.8rem 2.5rem;
+  border-radius: 3rem;
+  background-color: var(--color-primary);
+  color: #222;
+}
+
+/* Hover and active state for button link */
+.nav__link--btn:hover,
+.nav__link--btn:active {
+  background-color: var(--color-primary-darker);
+  color: #333;
+}

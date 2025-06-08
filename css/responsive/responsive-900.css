@@ -1,0 +1,53 @@
+/* =============================
+   Responsive adjustments for devices
+   with screen width 900px or less
+============================= */
+@media (max-width: 900px) {
+  /* Reduce heading size for better fit */
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  /* Reposition dark mode toggle button */
+  #modeToggleBtn {
+    position: fixed;
+    top: 10%;
+    right: 50%;
+  }
+
+  /* Adjust footer padding for narrow screens */
+  .footer {
+    padding: 6rem 2rem;
+  }
+
+  /* Stack footer navigation links vertically */
+  .footer__nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+  }
+
+  /* Remove right margin on footer items */
+  .footer__item {
+    margin-right: 0;
+  }
+
+  /* Resize footer logo for smaller screens */
+  .footer__logo {
+    height: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Adjust copyright text size and spacing */
+  .footer__copyright {
+    font-size: 1.3rem;
+    padding: 0 1rem;
+  }
+
+  /* Match link font size in copyright section */
+  .footer__copyright .footer__link {
+    font-size: 1.3rem;
+  }
+}

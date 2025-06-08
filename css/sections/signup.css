@@ -1,0 +1,25 @@
+/* Sign-up section styling */
+.section--sign-up {
+  background-color: var(--sign-up-bg); /* Background color for sign-up area */
+  border-top: none;
+  border-bottom: 1px solid #444; /* Bottom border to separate section */
+  text-align: center; /* Center all text inside the section */
+  padding: 10rem 3rem; /* Vertical and horizontal padding */
+}
+
+/* Header inside the sign-up section */
+.section--sign-up .section__header {
+  color: var(--sign-up-text); /* Text color for header */
+  text-align: center; /* Center the header text */
+}
+
+/* Title container inside sign-up section */
+.section--sign-up .section__title {
+  margin-bottom: 6rem; /* Space below the title */
+}
+
+/* Button styling inside sign-up section */
+.section--sign-up .btn {
+  font-size: 1.9rem; /* Larger font for the button */
+  padding: 2rem 5rem; /* Padding inside the button for bigger click area */
+}

@@ -1,0 +1,47 @@
+/* Features container setup: two-column grid with gap and side margin */
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 4rem; /* Space between grid items */
+  margin: 0 12rem; /* Large horizontal margins for desktop */
+}
+
+/* Images inside features take full width of their grid cell */
+.features__img {
+  width: 100%;
+}
+
+/* Feature text blocks centered and limited to 70% width for readability */
+.features__feature {
+  align-self: center; /* Vertically center inside grid cell */
+  justify-self: center; /* Horizontally center inside grid cell */
+  width: 70%; /* Limit width to improve line length */
+  font-size: 1.5rem; /* Comfortable font size */
+}
+
+/* Icon container: circular background with flexbox centering */
+.features__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(
+    --color-primary-opacity
+  ); /* Semi-transparent primary color */
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 50%; /* Circle shape */
+  margin-bottom: 2rem; /* Space below icon */
+}
+
+/* SVG icon inside icon container: fixed size and primary color fill */
+.features__icon svg {
+  height: 2.5rem;
+  width: 2.5rem;
+  fill: var(--color-primary);
+}
+
+/* Feature heading style: larger font and spacing */
+.features__header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

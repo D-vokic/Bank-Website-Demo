@@ -1,0 +1,147 @@
+@media (max-width: 576px) {
+  /* Set base font size for very small screens */
+  html {
+    font-size: 37.5%;
+  }
+
+  /* Navigation padding adjustment */
+  .nav {
+    padding: 1rem;
+  }
+
+  /* Navigation links font size */
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 1.5rem;
+  }
+
+  /* Navigation button padding */
+  .nav__link--btn:link,
+  .nav__link--btn:visited {
+    padding: 0.6rem 2rem;
+  }
+
+  /* General button padding */
+  .btn {
+    padding: 1rem 3rem;
+  }
+
+  /* Header title spacing */
+  .header__title {
+    row-gap: 2rem;
+  }
+
+  /* Header image width for small devices */
+  .header__img {
+    width: 90%;
+  }
+
+  /* Section 3 (Testimonials) padding */
+  #section--3 {
+    padding: 6rem 1.2rem;
+  }
+
+  /* Section 3 title container adjustments */
+  #section--3 .section__title {
+    max-width: 100%;
+    margin-bottom: 1.4rem;
+    text-align: center;
+  }
+
+  /* Section 3 description styling */
+  #section--3 .section__description {
+    font-size: 1.15rem;
+    text-align: center;
+  }
+
+  /* Section 3 header styling */
+  #section--3 .section__header {
+    font-size: 2.3rem;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  /* Slider and slide height adjustments */
+  #section--3 .slider,
+  #section--3 .slide {
+    height: 28rem;
+  }
+
+  /* Testimonial container full width and centering */
+  #section--3 .testimonial {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Testimonial header font size */
+  #section--3 .testimonial__header {
+    font-size: 1.55rem;
+  }
+
+  /* Testimonial text styling */
+  #section--3 .testimonial__text {
+    font-size: 1.1rem;
+    margin-bottom: 1.4rem;
+  }
+
+  /* Testimonial author spacing */
+  #section--3 .testimonial__author {
+    margin-left: 1.1rem;
+  }
+
+  /* Testimonial photo size */
+  #section--3 .testimonial__photo {
+    width: 4.5rem;
+  }
+
+  /* Testimonial name font size */
+  #section--3 .testimonial__name {
+    font-size: 1.15rem;
+  }
+
+  /* Testimonial location font size */
+  #section--3 .testimonial__location {
+    font-size: 1rem;
+  }
+
+  /* Slider button size */
+  #section--3 .slider__btn {
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 2rem;
+  }
+
+  /* Positioning left slider button */
+  #section--3 .slider__btn--left {
+    left: 3%;
+  }
+
+  /* Positioning right slider button */
+  #section--3 .slider__btn--right {
+    right: 3%;
+  }
+
+  /* Positioning dots container */
+  #section--3 .dots {
+    bottom: 2%;
+  }
+
+  /* Dot size and spacing */
+  #section--3 .dots__dot {
+    height: 0.7rem;
+    width: 0.7rem;
+    margin-right: 0.8rem;
+  }
+
+  /* Sign-up section header font size */
+  .section--sign-up .section__header {
+    font-size: 2.4rem;
+  }
+
+  /* Sign-up section button full width and padding */
+  .section--sign-up .btn {
+    font-size: 1.4rem;
+    padding: 1.4rem 3rem;
+    width: 100%;
+  }
+}

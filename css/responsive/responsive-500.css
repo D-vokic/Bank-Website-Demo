@@ -1,0 +1,32 @@
+/* Responsive styles for small devices (max width: 500px) */
+@media (max-width: 500px) {
+  /* Increase padding inside footer for better spacing on small screens */
+  .footer {
+    padding: 4rem 1.5rem;
+  }
+
+  /* Reduce gap between footer navigation links for compact layout */
+  .footer__nav {
+    gap: 1rem;
+  }
+
+  /* Make footer links slightly larger for better readability on small devices */
+  .footer__link {
+    font-size: 1.4rem;
+  }
+
+  /* Resize footer logo to fit smaller screens */
+  .footer__logo {
+    height: 3.5rem;
+  }
+
+  /* Decrease font size of copyright text */
+  .footer__copyright {
+    font-size: 1.2rem;
+  }
+
+  /* Match footer links font size inside copyright for consistency */
+  .footer__copyright .footer__link {
+    font-size: 1.2rem;
+  }
+}

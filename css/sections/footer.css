@@ -1,0 +1,50 @@
+/* Footer container styling */
+.footer {
+  padding: 10rem 3rem;
+  background-color: var(--sign-up-bg);
+}
+
+/* Footer navigation list */
+.footer__nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+/* Individual footer navigation item spacing */
+.footer__item {
+  margin-right: 4rem;
+}
+
+/* Footer navigation links styling */
+.footer__link {
+  font-size: 1.6rem;
+  color: var(--footer-link);
+  text-decoration: none;
+}
+
+/* Hover effect for footer links */
+.footer__link:hover {
+  color: var(--footer-link-hover);
+}
+
+/* Footer logo styling and centering */
+.footer__logo {
+  height: 5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+/* Footer copyright text styling */
+.footer__copyright {
+  font-size: 1.4rem;
+  color: var(--footer-text);
+  text-align: center;
+}
+
+/* Links inside copyright area use smaller font */
+.footer__copyright .footer__link {
+  font-size: 1.4rem;
+}

@@ -1,0 +1,169 @@
+/* =========================
+   CSS Variables (Custom Properties)
+   Define colors, gradients, backgrounds, text colors, etc.
+========================= */
+:root {
+  --color-primary: #5ec576;
+  --color-secondary: #ffcb03;
+  --color-tertiary: #ff585f;
+  --color-primary-darker: #4bbb7d;
+  --color-secondary-darker: #ffbb00;
+  --color-tertiary-darker: #fd424b;
+  --color-primary-opacity: #5ec5763a; /* Primary color with opacity */
+  --color-secondary-opacity: #ffcd0331;
+  --color-tertiary-opacity: #ff58602d;
+  --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+  --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
+
+  /* Background and text base colors */
+  --bg-color: #fff;
+  --text-color: #000;
+
+  /* Button colors */
+  --btn-bg: #333;
+  --btn-color: #fff;
+
+  /* Sign-up section colors */
+  --sign-up-bg: #37383d;
+  --sign-up-border: #444;
+  --sign-up-text: #fff;
+
+  /* Footer colors */
+  --footer-bg: #37383d;
+  --footer-link: #eee;
+  --footer-link-hover: #fff;
+  --footer-text: #aaa;
+
+  /* Modal window colors */
+  --modal-bg: #f3f3f3;
+  --modal-text: #000;
+
+  /* Input field styles */
+  --input-bg: #fff;
+  --input-border: #ddd;
+}
+
+/* =========================
+   Global Reset & Box Sizing
+   Removes default margin and padding, sets box-sizing
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /* Inherit from html */
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  box-sizing: border-box; /* Includes padding and border in element's total width */
+}
+
+/* =========================
+   Body styles
+========================= */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth theme transitions */
+}
+
+/* =========================
+   Section styling
+========================= */
+.section {
+  padding: 15rem 3rem;
+  border-top: 1px solid #ddd;
+  transition: transform 1s, opacity 1s; /* For smooth reveal animations */
+}
+
+/* Hidden state for sections, used in scroll animations */
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+  transition: all 0.6s ease-out;
+}
+
+/* Section title container */
+.section__title {
+  max-width: 80rem;
+  margin: 0 auto 8rem auto;
+}
+
+/* Section description styling */
+.section__description {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+/* Main header inside sections */
+.section__header {
+  font-size: 4rem;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+/* =========================
+   Buttons Styling
+========================= */
+
+/* Primary button */
+.btn {
+  display: inline-block;
+  background-color: var(--color-primary);
+  font-size: 1.6rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  padding: 1.25rem 4.5rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-darker);
+}
+
+/* Text-style button */
+.btn--text {
+  display: inline-block;
+  background: none;
+  font-size: 1.7rem;
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--color-primary);
+  border: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* =========================
+   Typography & other elements
+========================= */
+
+p {
+  color: #666;
+}
+
+/* Remove default focus outline on buttons */
+button:focus {
+  outline: none;
+}
+
+/* Smooth image filter transitions */
+img {
+  transition: filter 0.5s;
+}
+
+/* Blur effect for lazy loading images */
+.lazy-img {
+  filter: blur(20px);
+}

@@ -1,0 +1,189 @@
+/* ========== Responsive Styles for Tablets and Smaller (max-width: 1024px) ========== */
+@media (max-width: 1024px) {
+  /* Reduce base font size for better scaling */
+  html {
+    font-size: 53%;
+  }
+
+  /* Center header content in one column */
+  .header__title {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  /* Adjust header image layout and size */
+  .header__img {
+    grid-column: 1;
+    grid-row: auto;
+    width: 70%;
+    transform: translateY(0);
+    margin-top: 3rem;
+  }
+
+  /* Adjust heading sizes for readability */
+  .header h1 {
+    font-size: 4.8rem;
+  }
+
+  .header h4 {
+    font-size: 2.2rem;
+  }
+
+  /* Align logo and hide tagline for compact view */
+  .nav_img {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav_img span {
+    display: none;
+  }
+
+  /* Reposition dark mode toggle button */
+  #modeToggleBtn {
+    position: fixed;
+    top: 2.5rem;
+    right: 70%;
+  }
+
+  /* Narrow down section margins and reduce gap */
+  .features {
+    margin: 0 6rem;
+    gap: 2.5rem;
+  }
+
+  /* Make feature boxes narrower and text smaller */
+  .features__feature {
+    width: 90%;
+    font-size: 1.4rem;
+  }
+
+  /* Resize and reformat modal window */
+  .modal {
+    max-width: 45rem;
+    padding: 3rem 4rem;
+  }
+
+  /* Make modal form single-column layout */
+  .modal__form {
+    grid-template-columns: 1fr;
+  }
+
+  .modal__form label,
+  .modal__form input {
+    font-size: 1.5rem;
+  }
+
+  .modal__form button {
+    grid-column: 1 / 2;
+  }
+
+  /* Make tab content stack vertically */
+  .operations__content--active {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    text-align: center;
+  }
+
+  /* Center operation icons */
+  .operations__icon {
+    margin: 0 auto;
+  }
+
+  .operations__content p {
+    grid-column: auto;
+  }
+
+  /* Section 3 (Testimonials) adjustments */
+  #section--3 {
+    padding: 8rem 1.8rem;
+  }
+
+  #section--3 .section__title {
+    max-width: 55rem;
+    margin-bottom: 2.2rem;
+  }
+
+  #section--3 .section__description {
+    font-size: 1.5rem;
+  }
+
+  #section--3 .section__header {
+    font-size: 2.9rem;
+    line-height: 1.15;
+  }
+
+  #section--3 .slider,
+  #section--3 .slide {
+    height: 37rem;
+  }
+
+  #section--3 .testimonial {
+    width: 87%;
+  }
+
+  #section--3 .testimonial__header {
+    font-size: 1.85rem;
+  }
+
+  #section--3 .testimonial__text {
+    font-size: 1.4rem;
+    margin-bottom: 2.2rem;
+  }
+
+  #section--3 .testimonial__author {
+    margin-left: 1.7rem;
+  }
+
+  #section--3 .testimonial__photo {
+    width: 5rem;
+  }
+
+  #section--3 .testimonial__name {
+    font-size: 1.4rem;
+  }
+
+  #section--3 .testimonial__location {
+    font-size: 1.2rem;
+  }
+
+  /* Resize slider navigation buttons */
+  #section--3 .slider__btn {
+    height: 4.1rem;
+    width: 4.1rem;
+    font-size: 2.5rem;
+  }
+
+  #section--3 .slider__btn--left {
+    left: 3.5%;
+  }
+
+  #section--3 .slider__btn--right {
+    right: 3.5%;
+  }
+
+  #section--3 .dots {
+    bottom: 2.6%;
+  }
+
+  #section--3 .dots__dot {
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-right: 1rem;
+  }
+
+  /* Adjust sign-up section spacing and text */
+  .section--sign-up {
+    padding: 8rem 2.5rem;
+  }
+
+  .section--sign-up .section__header {
+    font-size: 3.2rem;
+  }
+
+  .section--sign-up .btn {
+    font-size: 1.6rem;
+    padding: 1.6rem 4rem;
+  }
+}

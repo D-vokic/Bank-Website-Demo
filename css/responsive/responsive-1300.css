@@ -1,0 +1,188 @@
+/* Max width 1300px – Responsive adjustments for medium-large screens */
+@media (max-width: 1300px) {
+  /* Adjust base font size for better scaling */
+  html {
+    font-size: 59%;
+  }
+
+  /* Navigation bar padding */
+  .nav {
+    padding: 0 4rem;
+  }
+
+  /* Adjust logo subtitle font size */
+  .nav_img span {
+    font-size: 1.8rem !important;
+  }
+
+  /* Position dark mode toggle button */
+  #modeToggleBtn {
+    position: fixed;
+    top: 2.5rem;
+    right: 58%;
+    font-size: 2rem;
+  }
+
+  /* Limit header title width */
+  .header__title {
+    max-width: 100rem;
+  }
+
+  /* Features section spacing */
+  .features {
+    margin: 0 8rem;
+    gap: 3rem;
+  }
+
+  /* Features content width */
+  .features__feature {
+    width: 80%;
+  }
+
+  /* Modal dialog styling */
+  .modal {
+    max-width: 50rem;
+    padding: 4rem 5rem;
+  }
+
+  /* Modal title size */
+  .modal__header {
+    font-size: 2.8rem;
+  }
+
+  /* Operations section margins */
+  .operations {
+    margin: 8rem 3rem 0 3rem;
+  }
+
+  /* Operations tab size */
+  .operations__tab {
+    font-size: 1.5rem;
+    padding: 1rem 3.5rem;
+  }
+
+  /* Operations content padding and font size */
+  .operations__content {
+    font-size: 1.6rem;
+    padding: 2rem 5rem 5rem 5rem;
+  }
+
+  /* Section 3 – Testimonials layout */
+  #section--3 {
+    padding: 10rem 2rem;
+  }
+
+  /* Testimonials section title */
+  #section--3 .section__title {
+    max-width: 60rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Section description text size */
+  #section--3 .section__description {
+    font-size: 1.6rem;
+  }
+
+  /* Section main heading size and line-height */
+  #section--3 .section__header {
+    font-size: 3.2rem;
+    line-height: 1.2;
+  }
+
+  /* Slider container size */
+  #section--3 .slider {
+    height: 40rem;
+  }
+
+  /* Individual slide height */
+  #section--3 .slide {
+    height: 40rem;
+  }
+
+  /* Testimonial box width */
+  #section--3 .testimonial {
+    width: 80%;
+  }
+
+  /* Testimonial heading */
+  #section--3 .testimonial__header {
+    font-size: 2rem;
+  }
+
+  /* Testimonial paragraph */
+  #section--3 .testimonial__text {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  /* Author info margin */
+  #section--3 .testimonial__author {
+    margin-left: 2rem;
+  }
+
+  /* Author photo size */
+  #section--3 .testimonial__photo {
+    width: 5.5rem;
+  }
+
+  /* Author name font size */
+  #section--3 .testimonial__name {
+    font-size: 1.5rem;
+  }
+
+  /* Author location font size */
+  #section--3 .testimonial__location {
+    font-size: 1.3rem;
+  }
+
+  /* Slider buttons size and font */
+  #section--3 .slider__btn {
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 2.8rem;
+  }
+
+  /* Left button position */
+  #section--3 .slider__btn--left {
+    left: 4%;
+  }
+
+  /* Right button position */
+  #section--3 .slider__btn--right {
+    right: 4%;
+  }
+
+  /* Dots navigation position */
+  #section--3 .dots {
+    bottom: 3%;
+  }
+
+  /* Dot styling */
+  #section--3 .dots__dot {
+    height: 0.9rem;
+    width: 0.9rem;
+    margin-right: 1.25rem;
+  }
+
+  /* Signup section header size */
+  .section--sign-up .section__header {
+    font-size: 3.6rem;
+  }
+
+  /* Signup button sizing */
+  .section--sign-up .btn {
+    font-size: 1.8rem;
+    padding: 1.8rem 4.5rem;
+  }
+
+  /* Footer layout */
+  .footer__nav {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  /* Footer item spacing */
+  .footer__item {
+    margin-right: 2rem;
+  }
+}

@@ -1,0 +1,67 @@
+/* Container for each testimonial block */
+.testimonial {
+  width: 65%;
+  position: relative;
+}
+
+/* Decorative large opening quotation mark before testimonial text */
+.testimonial::before {
+  content: '\201C'; /* Unicode for left double quotation mark */
+  position: absolute;
+  top: -5.7rem;
+  left: -6.8rem;
+  line-height: 1;
+  font-size: 20rem;
+  font-family: inherit;
+  color: var(--color-primary);
+  z-index: -1; /* Places the quote behind the text */
+}
+
+/* Header/title of the testimonial */
+.testimonial__header {
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+/* Main testimonial text */
+.testimonial__text {
+  font-size: 1.7rem;
+  margin-bottom: 3.5rem;
+  color: #666; /* Soft gray for readability */
+}
+
+/* Author section layout using grid: photo + info */
+.testimonial__author {
+  margin-left: 3rem;
+  font-style: normal;
+
+  display: grid;
+  grid-template-columns: 6.5rem 1fr; /* Photo and author info columns */
+  column-gap: 2rem;
+}
+
+/* Author photo styling */
+.testimonial__photo {
+  grid-row: 1 / span 2; /* Spans two rows to align with name and location */
+  width: 6.5rem;
+  border-radius: 50%; /* Circular photo */
+}
+
+/* Author name styling */
+.testimonial__name {
+  font-size: 1.7rem;
+  font-weight: 500;
+  align-self: end; /* Aligns name to bottom of grid cell */
+  margin: 0;
+}
+
+/* Author location styling */
+.testimonial__location {
+  font-size: 1.5rem;
+}
+
+/* Margin below testimonials section title */
+.section__title--testimonials {
+  margin-bottom: 4rem;
+}

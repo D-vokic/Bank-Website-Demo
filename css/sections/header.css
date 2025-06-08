@@ -1,0 +1,79 @@
+/* ----------------------------------
+   Header container styles
+----------------------------------- */
+.header {
+  padding: 0 3rem;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+/* ----------------------------------
+   Header title section - grid layout
+----------------------------------- */
+.header__title {
+  flex: 1; /* Take remaining vertical space */
+
+  max-width: 115rem;
+  display: grid;
+  grid-template-columns: 3fr 2fr; /* Two columns with 3:2 ratio */
+  row-gap: 3rem; /* Vertical gap between rows */
+  align-content: center; /* Center content vertically within grid */
+  justify-content: center; /* Center content horizontally within grid */
+
+  align-items: start; /* Align items to the top of each grid cell */
+  justify-items: start; /* Align items to the left of each grid cell */
+}
+
+/* ----------------------------------
+   Main header (h1) styles
+----------------------------------- */
+h1 {
+  font-size: 5.5rem;
+  line-height: 1.35; /* Adjust line height for better readability */
+}
+
+/* ----------------------------------
+   Subheader (h4) styles
+----------------------------------- */
+h4 {
+  font-size: 2.4rem;
+  font-weight: 500; /* Medium font weight */
+}
+
+/* ----------------------------------
+   Header image styles positioned in grid
+----------------------------------- */
+.header__img {
+  width: 100%;
+  grid-column: 2 / 3; /* Place image in second column */
+  grid-row: 1 / span 4; /* Span 4 rows */
+  transform: translateY(-6rem); /* Move image upwards */
+}
+
+/* ----------------------------------
+   Highlighted text effect container
+----------------------------------- */
+.highlight {
+  position: relative; /* Establish positioning context for ::after */
+}
+
+/* ----------------------------------
+   Highlight background effect with skew and opacity
+----------------------------------- */
+.highlight::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1; /* Place behind the text */
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-image: var(
+    --gradient-primary
+  ); /* Uses CSS variable for gradient */
+}

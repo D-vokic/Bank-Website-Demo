@@ -1,0 +1,139 @@
+/* Max width 1150px – Tablet Landscape and smaller */
+@media (max-width: 1150px) {
+  /* Scale down base font size for better responsiveness */
+  html {
+    font-size: 56.25%;
+  }
+
+  /* Adjust layout of header title columns and spacing */
+  .header__title {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+
+  /* Resize subtitle next to logo */
+  .nav_img span {
+    font-size: 1.8rem;
+  }
+
+  /* Reduce left margin between nav links */
+  .nav__item {
+    margin-left: 3rem;
+  }
+
+  /* Reposition and resize the dark mode toggle button */
+  #modeToggleBtn {
+    position: fixed;
+    top: 10%;
+    right: 50%;
+    font-size: 2.8rem;
+  }
+
+  /* === Section 3: Testimonials Adjustments === */
+
+  /* Add padding for inner spacing */
+  #section--3 {
+    padding: 9rem 2rem;
+  }
+
+  /* Constrain max width of the section title */
+  #section--3 .section__title {
+    max-width: 58rem;
+    margin-bottom: 2.5rem;
+  }
+
+  /* Resize subheading text */
+  #section--3 .section__description {
+    font-size: 1.55rem;
+  }
+
+  /* Resize main heading */
+  #section--3 .section__header {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  /* Adjust slider height */
+  #section--3 .slider,
+  #section--3 .slide {
+    height: 38rem;
+  }
+
+  /* Constrain testimonial box width */
+  #section--3 .testimonial {
+    width: 85%;
+  }
+
+  /* Resize testimonial heading */
+  #section--3 .testimonial__header {
+    font-size: 1.9rem;
+  }
+
+  /* Resize testimonial text */
+  #section--3 .testimonial__text {
+    font-size: 1.45rem;
+    margin-bottom: 2.3rem;
+  }
+
+  /* Adjust testimonial author spacing */
+  #section--3 .testimonial__author {
+    margin-left: 1.8rem;
+  }
+
+  /* Resize author photo */
+  #section--3 .testimonial__photo {
+    width: 5.25rem;
+  }
+
+  /* Resize author name */
+  #section--3 .testimonial__name {
+    font-size: 1.45rem;
+  }
+
+  /* Resize author location */
+  #section--3 .testimonial__location {
+    font-size: 1.25rem;
+  }
+
+  /* Resize slider navigation buttons */
+  #section--3 .slider__btn {
+    height: 4.3rem;
+    width: 4.3rem;
+    font-size: 2.6rem;
+  }
+
+  /* Reposition left navigation button */
+  #section--3 .slider__btn--left {
+    left: 3.8%;
+  }
+
+  /* Reposition right navigation button */
+  #section--3 .slider__btn--right {
+    right: 3.8%;
+  }
+
+  /* Adjust position of slider dots */
+  #section--3 .dots {
+    bottom: 2.8%;
+  }
+
+  /* Resize slider dots */
+  #section--3 .dots__dot {
+    height: 0.85rem;
+    width: 0.85rem;
+    margin-right: 1.1rem;
+  }
+
+  /* === Section: Sign-up Area Adjustments === */
+
+  /* Resize sign-up section heading */
+  .section--sign-up .section__header {
+    font-size: 3.4rem;
+  }
+
+  /* Resize sign-up button */
+  .section--sign-up .btn {
+    font-size: 1.7rem;
+    padding: 1.7rem 4.2rem;
+  }
+}

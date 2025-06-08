@@ -1,0 +1,168 @@
+@media (max-width: 480px) {
+  /* Reduce horizontal margin on features section for small screens */
+  .features {
+    margin: 0 2rem;
+  }
+
+  /* Smaller font size for feature descriptions */
+  .features__feature {
+    font-size: 1.3rem;
+  }
+
+  /* Modal header font size adjustment for mobile */
+  .modal__header {
+    font-size: 2rem;
+  }
+
+  /* Increase font size for modal form labels and inputs for readability */
+  .modal__form label,
+  .modal__form input {
+    font-size: 1.4rem;
+  }
+
+  /* Reduce gap between modal form elements */
+  .modal__form {
+    gap: 1rem;
+  }
+
+  /* Larger close button for easier tapping on mobile */
+  .btn--close-modal {
+    font-size: 3rem;
+  }
+
+  /* Section padding adjustments for smaller screens */
+  .section {
+    padding: 8rem 2rem;
+  }
+
+  /* Section headers scaled down */
+  .section__header {
+    font-size: 2.4rem;
+  }
+
+  /* Adjust tab font size and padding in operations section */
+  .operations__tab {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+  }
+
+  /* Adjust font size and padding for operations content */
+  .operations__content {
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem 3rem 2rem;
+  }
+
+  /* Specific padding adjustments for section 3 */
+  #section--3 {
+    padding: 5rem 1rem;
+  }
+
+  /* Center title in section 3 with full width */
+  #section--3 .section__title {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  /* Smaller font size and centered text for section 3 description */
+  #section--3 .section__description {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* Adjust header font size, line height, and center for section 3 */
+  #section--3 .section__header {
+    font-size: 2rem;
+    line-height: 1.05;
+    text-align: center;
+  }
+
+  /* Set fixed height for slider and slides in section 3 */
+  #section--3 .slider,
+  #section--3 .slide {
+    height: 25rem;
+  }
+
+  /* Make testimonials full width and centered */
+  #section--3 .testimonial {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Smaller font size for testimonial header */
+  #section--3 .testimonial__header {
+    font-size: 1.4rem;
+  }
+
+  /* Slightly smaller testimonial text with margin below */
+  #section--3 .testimonial__text {
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+  }
+
+  /* Margin adjustment for testimonial author */
+  #section--3 .testimonial__author {
+    margin-left: 0.8rem;
+  }
+
+  /* Reduce testimonial photo size */
+  #section--3 .testimonial__photo {
+    width: 4rem;
+  }
+
+  /* Smaller font size for testimonial name */
+  #section--3 .testimonial__name {
+    font-size: 1rem;
+  }
+
+  /* Smaller font size for testimonial location */
+  #section--3 .testimonial__location {
+    font-size: 0.9rem;
+  }
+
+  /* Smaller, more compact slider navigation buttons */
+  #section--3 .slider__btn {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.8rem;
+  }
+
+  /* Position left slider button slightly inset */
+  #section--3 .slider__btn--left {
+    left: 2.5%;
+  }
+
+  /* Position right slider button slightly inset */
+  #section--3 .slider__btn--right {
+    right: 2.5%;
+  }
+
+  /* Position dots pagination closer to bottom */
+  #section--3 .dots {
+    bottom: 1.8%;
+  }
+
+  /* Smaller dots for pagination */
+  #section--3 .dots__dot {
+    height: 0.6rem;
+    width: 0.6rem;
+    margin-right: 0.7rem;
+  }
+
+  /* Padding adjustments for sign-up section */
+  .section--sign-up {
+    padding: 5rem 1.5rem;
+  }
+
+  /* Smaller header font size in sign-up section */
+  .section--sign-up .section__header {
+    font-size: 2rem;
+  }
+
+  /* Button styling for full width and adjusted font size/padding */
+  .section--sign-up .btn {
+    font-size: 1.3rem;
+    padding: 1.3rem 2.5rem;
+    width: 100%;
+  }
+}

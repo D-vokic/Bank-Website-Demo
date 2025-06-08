@@ -1,0 +1,223 @@
+@media (max-width: 768px) {
+  /* === Header Typography Adjustments === */
+  .header h1 {
+    font-size: 3rem;
+  }
+
+  .header h4 {
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+
+  /* === Dark Mode Toggle Button Positioning === */
+  #modeToggleBtn {
+    position: fixed;
+    top: 2.5rem;
+    right: 50%;
+  }
+
+  /* === Hamburger Menu Display on Mobile === */
+  .nav__hamburger {
+    display: flex;
+    font-size: 0.5rem;
+  }
+
+  /* === Mobile Navigation Links Styling === */
+  .nav__links {
+    display: none !important;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+
+  /* === Show Navigation on Toggle === */
+  .nav__links.nav__links--active {
+    display: flex !important;
+  }
+
+  .nav__item {
+    margin: 10px 0;
+  }
+
+  .nav__link {
+    padding: 10px 20px;
+    display: block;
+  }
+
+  /* === Features Section Layout for Mobile === */
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    margin: 0 2rem;
+  }
+
+  .features__img,
+  .features__feature {
+    width: 100%;
+  }
+
+  .features__img {
+    border-radius: 1rem;
+  }
+
+  .features__feature {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .features__header {
+    font-size: 1.8rem;
+  }
+
+  .features__feature p {
+    display: none; /* Hide paragraph text for cleaner mobile layout */
+  }
+
+  /* === Modal Window Adjustments === */
+  .modal {
+    max-width: 90%;
+    padding: 2rem 2.5rem;
+  }
+
+  .modal__header {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .modal__form {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .modal__form button {
+    width: 100%;
+  }
+
+  /* === General Section Titles === */
+  .section__header {
+    font-size: 3.2rem;
+  }
+
+  .section__description {
+    font-size: 1.6rem;
+  }
+
+  /* === Operations Tabs Mobile Layout === */
+  .operations__tab-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .operations__tab {
+    transform: translateY(0);
+    width: 80%;
+    text-align: center;
+  }
+
+  .operations__tab--active {
+    transform: translateY(0);
+  }
+
+  .operations__content {
+    padding: 2rem 3rem;
+  }
+
+  /* === Testimonials Section (Section 3) === */
+  #section--3 {
+    padding: 7rem 1.5rem;
+  }
+
+  #section--3 .section__title {
+    max-width: 48rem;
+    margin-bottom: 1.8rem;
+  }
+
+  #section--3 .section__description {
+    font-size: 1.35rem;
+  }
+
+  #section--3 .section__header {
+    font-size: 2.6rem;
+    line-height: 1.1;
+  }
+
+  #section--3 .slider,
+  #section--3 .slide {
+    height: 33rem;
+  }
+
+  #section--3 .testimonial {
+    width: 92%;
+  }
+
+  #section--3 .testimonial__header {
+    font-size: 1.7rem;
+  }
+
+  #section--3 .testimonial__text {
+    font-size: 1.25rem;
+    margin-bottom: 1.8rem;
+  }
+
+  #section--3 .testimonial__author {
+    margin-left: 1.4rem;
+  }
+
+  #section--3 .testimonial__photo {
+    width: 4.75rem;
+  }
+
+  #section--3 .testimonial__name {
+    font-size: 1.25rem;
+  }
+
+  #section--3 .testimonial__location {
+    font-size: 1.15rem;
+  }
+
+  #section--3 .slider__btn {
+    height: 3.8rem;
+    width: 3.8rem;
+    font-size: 2.2rem;
+  }
+
+  #section--3 .slider__btn--left {
+    left: 3.3%;
+  }
+
+  #section--3 .slider__btn--right {
+    right: 3.3%;
+  }
+
+  #section--3 .dots {
+    bottom: 2.3%;
+  }
+
+  #section--3 .dots__dot {
+    height: 0.75rem;
+    width: 0.75rem;
+    margin-right: 0.9rem;
+  }
+
+  /* === Call to Action Section === */
+  .section--sign-up {
+    padding: 6rem 2rem;
+  }
+
+  .section--sign-up .section__header {
+    font-size: 2.8rem;
+    line-height: 1.4;
+  }
+
+  .section--sign-up .btn {
+    font-size: 1.5rem;
+    padding: 1.5rem 3.5rem;
+  }
+}
